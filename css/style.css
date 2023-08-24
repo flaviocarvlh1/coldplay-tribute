@@ -1,0 +1,284 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    background-color:#9d3ac7;
+    color: #F2F2F2;
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+
+}
+
+header {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 20px;
+    width: 958px;
+    
+    
+}
+
+nav ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+}
+
+.container {
+    
+    display: flex;
+    height: auto;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img {
+    display: block;
+    margin: auto;
+    object-fit: fill;
+    width: 1300px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+.container p {
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.title {
+    width: 100%;
+}
+
+    
+.album1  {
+    
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/parachutes.jpg);
+    background-position: top;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.album2 {
+    
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album2.jpg);
+    background-position: top;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album3 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album3_resized.jpg);
+    background-position: top;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album4 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album4_resized.jpg);
+    background-position: top;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album5 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album5.jpg);
+    background-position: center;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album6 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album6.jpeg);
+    background-position: top center;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.album7 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album7.jpeg);
+    background-position: top center;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album8 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album8.jpeg);
+    background-position: top center;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.album9 {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../imagens/album9_resized.jpg);
+    background-position: top center;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.album1 a, .album2 a, .album3 a, .album4 a, .album5 a, .album6 a, .album7 a, .album8 a, .album9 a
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  
+   text-align: center;
+    
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    justify-self: center;
+
+    color: #ffffff;
+  text-shadow:
+      0 0 7px #550264,
+      0 0 10px #6908d7,
+      0 0 21px #0d8bcf,
+      0 0 42px rgb(0, 162, 255),
+      0 0 82px rgb(255, 0, 183),
+      0 0 92px rgb(232, 241, 238),
+      0 0 102px rgba(0, 0, 0, 0.944),
+      0 0 151px rgb(159, 196, 99);
+    
+}
+
+.saibamais {
+    text-align: center;
+}
+.saibamais a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+  text-shadow:
+      0 0 7px #550264,
+      0 0 10px #6908d7,
+      0 0 21px #0d8bcf,
+      0 0 42px rgb(0, 162, 255),
+      0 0 82px rgb(255, 0, 183),
+      0 0 92px rgb(232, 241, 238),
+      0 0 102px rgba(0, 0, 0, 0.944),
+      0 0 151px rgb(159, 196, 99);
+
+}
+
+footer {
+    
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border: solid 1px white;
+    border-radius: 20px;
+    align-items: end;
+    
+}
+footer p {
+    font-size: 12px;
+    justify-content: start;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
