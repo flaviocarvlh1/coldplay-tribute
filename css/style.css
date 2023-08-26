@@ -32,6 +32,12 @@ header {
     
 }
 
+nav .menu a,
+nav a:hover {
+    background-color: #ac39e1;
+    color: #FFFFFF;
+}
+
 nav ul, li {
     list-style: none;
     padding: 0;
@@ -259,6 +265,7 @@ footer {
     display: flex;
     align-items: center;
     margin: 10px;
+    
 }
 
 footer img {
@@ -267,18 +274,65 @@ footer img {
     margin: 5px;
     border: solid 1px white;
     border-radius: 20px;
-    align-items: end;
+    
     
 }
 footer p {
     font-size: 12px;
-    justify-content: start;
+    text-align: end;
+    
 }
 
 .redes-sociais {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    
+
 }
 
+.menuMobile {
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
 
+.mmline {
+    height: 3px;
+    background-color: #ac39e1;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .container img {
+        height: 400px;
+        width: 400px;
+    }
+
+    
+    #discography    {
+        line-height: 0px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #ac39e1;
+    }
+    
+}

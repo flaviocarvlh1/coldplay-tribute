@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="viewport" content="width=device-width, use-scale=0">
   
     <link rel="stylesheet" href="./css/style.css">
 
@@ -10,13 +10,35 @@
     <title>Tribute Page</title>
     <link rel="website icon" type="png"
     href="./imagens/icontest.png">
+
+    <script type="text/javascript">
+        window.onload = function() {
+           document.querySelector(".menuMobile").addEventListener("click", function(){
+               if (document.querySelector(".menu nav ul").style.display == "flex") {
+                   document.querySelector(".menu nav ul").style.display = "none";
+               } else { 
+                   document.querySelector(".menu nav ul").style.display = "flex"; }
+           }); 
+
+           
+        }
+
+   </script>
+
 </head>
 
 <body>
 
     <header>
-        <nav class="menu">
+        <div class="menu">
+        <nav>
             
+            <div class="menuMobile">
+                <div class="mmline"></div>
+                <div class="mmline"></div>
+                <div class="mmline"></div>
+            </div>
+
                 <ul>
                     <li>
                         <a href="/">Coldplay  ▶</a>
@@ -30,6 +52,8 @@
                 </ul>
             
         </nav>
+
+        </div>
     </header>
 
     <main>
@@ -60,7 +84,7 @@
         </div>
         </section>
 
-        <section>
+        <section id="discography">
             <div class="album1">
                 
                 <div class="discography">
@@ -169,16 +193,18 @@
                 <div class="redes-sociais">
                     <ul>
                      <li>
-                         <a href="https://github.com/flaviocarvlh1"><img src="./imagens/github.png" alt="github"></a>
+                         <a href="https://github.com/flaviocarvlh1"><img src="./imagens/github.jpg" alt="github"></a>
                      </li>
                      <li>
                          <a href="https://www.linkedin.com/in/flaviocarvlh1/"><img src="./imagens/linkedin.jpg" alt="linkedin"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/flaviocarvlh/"><img src="./imagens/instagram.png" alt="instagram"></a>
+                        <a href="https://www.instagram.com/flaviocarvlh/"><img src="./imagens/instagram.jpg" alt="instagram"></a>
                     </li>
                     </ul>
+                    
                 </div>    
+                
                 
             </div>
       
